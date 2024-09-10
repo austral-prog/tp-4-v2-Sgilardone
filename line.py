@@ -16,5 +16,5 @@ def line():
     print("")
     x1, y1= X1, Y1
     x2, y2= X2, Y2
-    distancia = ((x2 - x1)*2 + (y2 - y1)2)*0.5
-    print(f"La distancia entre ellos es: {distancia}"
+    distancia = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+    print(f"La distancia entre ellos es: {distancia}")
